@@ -1,0 +1,84 @@
+body{
+background:lightyellow;
+}
+body div textarea{
+    width: 150px;
+    height: 150px;
+}
+body h1,p{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+body p{
+    font-size: 30px;
+}
+.winordef{
+    display: none;
+}
+#emp{
+    background: lightslategray;
+}
+#derrota{
+    background: red;
+}
+#vitoria{
+    background: green;
+}
+body div{
+   display: flex;
+   justify-content: center;
+}
+.botao{
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#botaoEnviar{
+    width: 100px;
+    height: 30px;  
+    border-radius: 3px;
+    border-color: blue;
+    background-color: black;
+    color: white;  
+    font-size: 20px;
+    font-family:'Permanent Marker', cursive;
+}
+#botaoEnviar:hover{
+    transition: 2s;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: lightblue;
+    background-color: lightcyan;
+    color: black;
+}
+#user{
+    font-family:'Permanent Marker', cursive;
+}
+@media(min-width:768px){
+
+    body div textarea{
+        width: 250px;
+        height: 250px;
+    }
+}
+#botaoDeReset{
+    width: 115px;
+    margin-top: 7px;
+    height: 30px;  
+    border-radius: 3px;
+    border-color: blue;
+    background-color: black;
+    color: white;  
+    font-size: 20px;
+    font-family:'Permanent Marker', cursive;
+}
+#botaoDeReset:hover{
+    margin-top: 7px;
+    transition: 2s;
+    width: 115px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: lightblue;
+    background-color: lightcyan;
+    color: black;
+}
